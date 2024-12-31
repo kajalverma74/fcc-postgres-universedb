@@ -94,3 +94,14 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 pg_dump -cC --inserts -U freecodecamp universe > universe.sql
 git remote add origin https://github.com/kajalverma74/fcc-postgres-universedb.git
 git add .
+git status
+git commit -m "first commit"
+git push -u origin main
+git remote add origin https://github.com/kajalverma74/fcc-postgres-universedb.git
+git remote -v
+git remote add origin https://kajalverma74:gitpod_pat_HJpgELQcWuWXh_z-pH7zSTaq_04fKjsOmxGtq7UX3Rk@github.com/kajalverma74/fcc-postgres-universedb.git
+git remote -v
+git push -u origin master
+git branch
+git push -u origin main
+git add .
